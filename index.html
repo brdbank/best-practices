@@ -1,21 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Welcome to Our Project</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <title>BRD Bank Dev Standards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ✅ Dark Mode -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css">
+  <!-- Light and dark mode -->
+  <link
+    rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/prism-themes@1/themes/prism-one-light.min.css"
+  />
+  <!-- ✅ Custom Overrides -->
+  <style>
+    /* Sidebar background */
+    .sidebar {
+      background-color: #1e1e1e !important; /* Dark grey */
+    }
+
+    /* Sidebar links */
+    .sidebar a {
+      color: #00bcd4 !important; /* Cyan or any color you want */
+    }
+
+    /* Active link highlight */
+    .sidebar .active > a {
+      color: #ffeb3b !important; /* Yellow highlight for active link */
+    }
+
+    /* Optional: Navbar background */
+    .app-name, .app-nav {
+      background-color: #121212 !important;
+    }
+
+    /* 🔗 Links inside rendered markdown content */
+  .content a {
+    color: #4FC3F7 !important;  /* Light blue (adjust to your preference) */
+    /* text-decoration: underline; */
+  }
+
+  /* 🔗 Hover state */
+  .content a:hover {
+    color: #00bcd4 !important;  /* Lighter blue on hover */
+  }
+
+  </style>
+
 </head>
 <body>
-  <div class="container">
-    <h1>Welcome to the BRD Digital Innovation</h1>
-    <p>This is the landing page for our documentation and project details.</p>
-
-    <a href="https://github.com/brdbank/best-practices/wiki" class="btn">📘 View Wiki Documentation</a>
-    
-    <footer>
-      <p>© 2025 BRD DI Team</p>
-    </footer>
-  </div>
+  <div id="app">Loading...</div>
+  <script>
+    window.$docsify = {
+      name: 'BRD Dev Standards',
+      // repo: 'brdbank/best-practices',
+      loadSidebar: true,
+      loadNavbar: true,
+    };
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-docker.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-git.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-jsx.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-rust.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-swift.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.30.0/components/prism-json.min.js"></script>
 </body>
 </html>
