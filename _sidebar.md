@@ -1,4 +1,5 @@
-* [Home](README.md)
+* [Home](index.md)
+* [Code Standards](code-standard.md)
 * [Git naming conventions](git-naming.md)
 * [Git workflow](git-workflow.md)
 * [Linting](linting.md)
