@@ -3,7 +3,7 @@
 This repository contains the official documentation for BRD Bank’s software development standards, naming conventions, and best practices.
 
 🟢 **View the full interactive documentation here**:  
-👉 [https://brdbank.github.io/best-practices/#/](https://brdbank.github.io/best-practices/#/)
+👉 [BRD Dev Standards](https://brdbank.github.io/best-practices/#/)
 
 ## 📦 What's Inside
 
