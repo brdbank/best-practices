@@ -4,3 +4,4 @@
 * [Git workflow](git-workflow.md)
 * [Linting](linting.md)
 * [API Endpoint Design](endpoint.md)
+* [Code Commenting Guideline](comment.md)
